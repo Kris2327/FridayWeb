@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+.program {
+    color: yellow;
+    font-size: 50px;
+    font-weight: 75px;
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    text-transform: uppercase;
+}
+
+.Monday {
+    background-color: white;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    font-size: 50px;
+    font-weight: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Tuesday {
+    background-color: lime;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    font-size: 50px;
+    font-weight: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Wednesday {
+    background-color: lime;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    font-size: 50px;
+    font-weight: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Thursday {
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 1025px;
+    font-size: 50px;
+    font-weight: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Friday {
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 1350px;
+    font-size: 50px;
+    font-weight: 100px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

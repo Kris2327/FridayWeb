@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Friday</title>
+        <link rel="stylesheet"  href = "Friday.css"  id="styleSheet">
+    </head>
+
+    <body>
+        <div class = "container">
+            <div class="circle"></div>
+            <div class="clock">
+                <div class="display"></div>
+                <div class="circle1"></div>
+            </div>
+            <div class="datePicker">
+                <div class="display2"></div>
+                <div class="circle2"></div>
+            </div>
+            <div class="timer">
+                <div class="circle3"></div>
+                <div class="display3"></div>
+                <div id="timerText">00:00:00</div>
+                <button id="startBtn" onclick="startTimer()">Start</button>
+                <button id="resetBtn" onclick="resetTimer()">Reset</button>
+                <button id="stopBtn" onclick="stopTimer()">Stop</button> 
+            </div>
+
+            <div class="workTime">
+                <div class="circle4"></div>
+                <div id="text">F.R.I.D.A.Y. work time:</div>
+                <div id="workTimeText">00:00:00</div>
+            </div>
+            
+            <a id = "speakBtn">Speak</a>
+        </div>     
+        <script src="Friday.js"></script>
+        <h1 id="result"></h1>
+    </body>
+</html>

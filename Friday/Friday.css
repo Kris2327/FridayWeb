@@ -1,0 +1,224 @@
+a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ff4500;
+    transition: 0.2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+    background-color: red;
+    box-shadow: 0 0 10px , 0 0 40px red, 0 0 80px red;
+    transition: 0.2s;
+}
+
+html,body {
+    display: grid;
+    height: 100%;
+    top: 50px;
+    left: 70px;
+}
+
+.circle {
+    background-color: black;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    top: 375px;
+    left: 675px;
+    font-size: 30px;
+    color: red;
+}
+
+.datePicker .circle2{
+    background-color: transparent;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.datePicker {
+    background: black;
+    position: absolute;
+    top: 17.5%;
+    left: 87.5%;
+    transform: translate(-15%, -87.5%);
+}
+
+.datePicker .display2 {
+    font-size: 45px;
+    color: red;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.clock .circle1{
+    background-color: transparent;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.clock {
+    background: black;
+    position: absolute;
+    top: 12.5%;
+    left: 5%;
+    transform: translate(-10%, -5%); 
+}
+
+.clock .display{
+    font-size: 45px;
+    color: red;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.timer{
+    background-color: #000000;
+    position: absolute;
+    top: 35%;
+    left: 27.5%;
+    transform: translate(-35%, -27.5%); 
+}
+
+.timer .display3{
+    font-size: 35px;
+    color: red;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.timer .circle3{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.timer #timerText{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    top: -110%;
+    left: 26.5%;
+    color: red;
+}
+
+.timer #startBtn {
+    background-color: #000000;
+    border-color: red;
+    color: red;
+    border-width: 2px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: -10px;
+    left: 30px;
+}
+
+.timer #resetBtn {
+    background-color: #000000;
+    border-color: red;
+    color: red;
+    border-width: 2px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: -50px;
+}
+
+.timer #stopBtn {
+    background-color: #000000;
+    border-color: red;
+    color: red;
+    border-width: 2px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    bottom: -10px;
+    right: 30px;
+}
+
+.workTime {
+    background-color: #000000;
+    position: absolute;
+    top: 30%;
+    right: 22.5%;
+}
+.workTime #workTimeText{
+    position: relative; 
+    color: red;
+    font-size: 30px;
+    top: 30%;
+    left: 22.5%;
+}
+
+.workTime #text{
+    color: red; 
+    font-size: 30px; 
+    width: 200px;
+    word-wrap: break-word;
+    position: relative;
+    bottom: -32.5%;
+    left: 15%;
+    
+}
+
+.workTime .circle4{
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);     
+}
+
+body {
+    background-color: black;
+    display: flex;
+}
